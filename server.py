@@ -15,13 +15,9 @@ while True:
     print('Socket bind complete')
     s.listen(5)
     print('Socket now listening')
-    if break_flag == 1:
-        print("ending")
-        break
+ 
     conn, addr = s.accept()
     print("connected")
-
-    
 
     while True:
        
